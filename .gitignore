@@ -1,0 +1,59 @@
+# ─────────────────────────────────────────────
+# Secrets & Credentials  (NEVER commit these)
+# ─────────────────────────────────────────────
+# Firebase service-account private key
+faceloginrealtime-firebase-adminsdk-*.json
+*serviceAccount*.json
+*firebase-adminsdk*.json
+
+# Twilio / API keys / environment configs
+.env
+.env.*
+secrets.ini
+config.ini
+credentials.json
+
+# ─────────────────────────────────────────────
+# Project artifacts
+# ─────────────────────────────────────────────
+# Pre-computed face encodings (regenerate with EncodeGenerator.py)
+EncodeFile.p
+*.p
+
+# User-uploaded / captured images
+user-final.png
+
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ─────────────────────────────────────────────
+# IDE / Editor
+# ─────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─────────────────────────────────────────────
+# OS files
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
